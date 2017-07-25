@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TakePhotoTest</string>
+    <string name="camera">照相机</string>
+    <string name="localPhotoAlbum">本地相册</string>
+    <string name="cancel">取消</string>
+
+    <!--自定义提示文字-->
+    <string name="album_view">选择图片</string>
+    <string name="image_view">单击选择</string>
+    <string name="add">确定</string>
+    <string name="selected">已选</string>
+    <string name="limit_exceeded">最多能选 %d 张</string>
+</resources>

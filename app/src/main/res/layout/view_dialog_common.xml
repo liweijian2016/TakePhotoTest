@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <!--
+              android:background="@color/orange_F55D5E"
+              android:paddingLeft="@dimen/p20"
+              android:paddingRight="@dimen/p20"
+    -->
+    <!--打开相机:拍照-->
+    <TextView
+        android:id="@+id/tv_camera"
+        style="@style/portraitDialogTv"
+        android:background="@drawable/shape_rect_bg_white_radius_top_20px"
+        android:text="@string/camera"
+        />
+
+    <View
+        style="@style/custom_horizontal_separator"
+        android:background="@color/master_tone"
+        />
+
+    <!--本地相册:选择照片-->
+    <TextView
+        android:id="@+id/tv_select_photo"
+        style="@style/portraitDialogTv"
+        android:layout_marginBottom="@dimen/p15"
+        android:background="@drawable/shape_rect_bg_white_radius_bottom_20px"
+        android:text="@string/localPhotoAlbum"
+        />
+
+    <!--取消操作-->
+    <TextView
+        android:id="@+id/tv_common_dialog_cancel"
+        style="@style/portraitDialogTv"
+        android:background="@drawable/shape_rect_bg_white_radius_20px"
+        android:text="@string/cancel"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
