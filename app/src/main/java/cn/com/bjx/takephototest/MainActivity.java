@@ -83,6 +83,7 @@ public class MainActivity extends TakePhotoBaseActivity implements View.OnClickL
     @Override
     public void takeSuccess(TResult result) {
         super.takeSuccess(result);
+
         showImg(result.getImages()); // result中包含了图片,用于展示.
         ArrayList<TImage> images = result.getImages();
         Log.i(TAG, "path====>originalPath====>" + images.get(0).getOriginalPath()); // /storage/emulated/0/images/20170720_093602.jpg
