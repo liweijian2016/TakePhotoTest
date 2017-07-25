@@ -110,7 +110,6 @@ public class MainActivity extends TakePhotoBaseActivity implements View.OnClickL
         Toast.makeText(this, "takeSuccess", Toast.LENGTH_SHORT).show();
     }
 
-
     private Bitmap justDecodeBounds(String path, int inSampleSize) {
         BitmapFactory.Options options = new BitmapFactory.Options();
         options.inJustDecodeBounds = true;
@@ -125,7 +124,6 @@ public class MainActivity extends TakePhotoBaseActivity implements View.OnClickL
         Bitmap output = BitmapFactory.decodeFile(path, options);
         return output;
     }
-
 
     // 缩放图片 static
     public Bitmap zoomImg(Bitmap bm, int newWidth, int newHeight) {
